@@ -1,4 +1,4 @@
-// Tarea 6 - Integrantes: Anthony Lopez, Jessica Cuasquen, Carlos Pantoja y Harol Chapi
+// Tarea 6 - Estudiante: Anthony Lopez
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 

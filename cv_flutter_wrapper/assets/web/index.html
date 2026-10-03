@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hoja de vida web responsiva de Anthony Lopez" />
+  <title>Hoja de Vida | Anthony Lopez</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="avatar" aria-hidden="true">AL</div>
+    <div>
+      <p class="eyebrow">Estudiante de Computación</p>
+      <h1>Anthony Lopez</h1>
+      <p class="tagline">Desarrollo de software, aplicaciones móviles y soluciones tecnológicas.</p>
+    </div>
+  </header>
+  <main class="container">
+    <section class="card" id="perfil">
+      <h2>Perfil profesional</h2>
+      <p>Estudiante de Computación con experiencia académica en desarrollo de aplicaciones móviles, diseño de interfaces y gestión de proyectos de software. Interesado en crear soluciones útiles, mantenibles y orientadas a las necesidades reales de los usuarios.</p>
+    </section>
+    <section class="card" id="proyectos">
+      <h2>Experiencia y proyectos</h2>
+      <article class="project">
+        <button class="accordion" aria-expanded="true" aria-controls="cercly-detail"><span>Cercly</span><span class="chevron">⌄</span></button>
+        <div class="accordion-panel open" id="cercly-detail"><p>Aplicación móvil orientada a recomendaciones de establecimientos cercanos mediante ubicación, categorías, promociones y navegación hacia mapas.</p></div>
+      </article>
+      <article class="project">
+        <button class="accordion" aria-expanded="false" aria-controls="rest-detail"><span>Sistema de gestión de restaurantes</span><span class="chevron">⌄</span></button>
+        <div class="accordion-panel" id="rest-detail"><p>Sistema académico para administrar inventario, trabajadores, mesas, pedidos y funciones diferenciadas para meseros y administración.</p></div>
+      </article>
+    </section>
+    <section class="card" id="habilidades">
+      <div class="section-heading">
+        <h2>Habilidades técnicas</h2>
+        <div class="filters" role="group" aria-label="Filtrar habilidades">
+          <button class="filter active" data-filter="all">Todas</button><button class="filter" data-filter="mobile">Móvil</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="tools">Herramientas</button>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <span class="skill" data-category="mobile">Flutter</span><span class="skill" data-category="mobile">Dart</span><span class="skill" data-category="web">HTML5</span><span class="skill" data-category="web">CSS3</span><span class="skill" data-category="web">JavaScript</span><span class="skill" data-category="tools">Git</span><span class="skill" data-category="tools">GitHub</span><span class="skill" data-category="tools">Android Studio</span>
+      </div>
+    </section>
+    <section class="card" id="contacto">
+      <h2>Contacto</h2>
+      <p class="muted">Formulario demostrativo para validar datos con JavaScript.</p>
+      <form id="contactForm" novalidate>
+        <label>Nombre<input id="name" name="name" type="text" autocomplete="name" required minlength="2" /></label>
+        <label>Correo<input id="email" name="email" type="email" autocomplete="email" required /></label>
+        <label>Mensaje<textarea id="message" name="message" rows="4" required minlength="10"></textarea></label>
+        <button class="primary" type="submit">Validar mensaje</button>
+        <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer><p>Hoja de vida web responsiva · Desarrollo de Aplicaciones Móviles<br><small>Integrantes: Anthony Lopez, Jessica Cuasquen, Carlos Pantoja y Harol Chapi</small></p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

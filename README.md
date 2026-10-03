@@ -3,7 +3,7 @@
 **Universidad Politécnica Estatal del Carchi - Carrera de Computación**  
 **Asignatura:** Desarrollo de Aplicaciones Móviles  
 **Docente:** PhD. Samuel Lascano Rivera  
-**Integrantes:** Anthony Lopez, Jessica Cuasquen, Carlos Pantoja y Harol Chapi  
+**Estudiante:** Anthony Lopez  
 **Fecha:** Octubre de 2026
 
 Este repositorio contiene los entregables técnicos de la práctica:
@@ -28,5 +28,5 @@ Este repositorio contiene los entregables técnicos de la práctica:
 - AppBar nativo con botón de recarga y selector de tema claro/oscuro.
 - Indicador de progreso de carga.
 
-## Integrantes
-Anthony Lopez, Jessica Cuasquen, Carlos Pantoja y Harol Chapi.
+## Estudiante
+Anthony Lopez.
